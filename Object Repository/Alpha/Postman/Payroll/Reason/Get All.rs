@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Get All</name>
+   <tag></tag>
+   <elementGuidId>a5f3aa36-3274-4d1e-9b53-11b8a5b2a662</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>66506c43-52d2-47cb-8867-de69742a58f7</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${alpha_token}</value>
+      <webElementGuid>2761612c-d6eb-490c-acb7-5da3155a26d4</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>${alpha_header_user_id_key}</name>
+      <type>Main</type>
+      <value>${alpha_header_user_id_value}</value>
+      <webElementGuid>66e726c4-1882-4e42-8f99-ee4fbf0a6302</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Proxy-Authorization</name>
+      <type>Main</type>
+      <value>${SECRET_SERVICE}</value>
+      <webElementGuid>3d3cc1a1-463d-4cc2-8179-4684daf5db4d</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/reasons?reason_type=reject&amp;company_setting_id=1</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>67d0c381-e98e-47a4-b0a5-e5c96eb7be67</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_token</defaultValue>
+      <description></description>
+      <id>85ab7c44-c51b-42f0-9c38-3b4c68dd2e5d</id>
+      <masked>false</masked>
+      <name>alpha_token</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_key</defaultValue>
+      <description></description>
+      <id>69dc57c5-669c-4fd9-bea2-b91630fe811e</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_key</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_value</defaultValue>
+      <description></description>
+      <id>bb5a6027-7ffd-4c9e-af3f-59c0ad401a09</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_value</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.SECRET_SERVICE</defaultValue>
+      <description></description>
+      <id>ad40afa0-c9e3-469b-8192-36b9c29324e6</id>
+      <masked>false</masked>
+      <name>SECRET_SERVICE</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

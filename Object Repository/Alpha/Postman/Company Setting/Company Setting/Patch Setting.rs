@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Patch Setting</name>
+   <tag></tag>
+   <elementGuidId>f3f6b3d8-9f72-4d4a-918f-fa55273ed276</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n    \&quot;settings\&quot; : [\r\n        {\r\n            \&quot;key\&quot; : \&quot;company_name\&quot;,\r\n            \&quot;value\&quot; : \&quot;Demo Company\&quot;\r\n        },\r\n        {\r\n            \&quot;key\&quot; : \&quot;company_hrd_email\&quot;,\r\n            \&quot;value\&quot; : \&quot;demo@email.com\&quot;\r\n        }\r\n    ]\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>d6b72807-bdf5-46f2-a3a9-e602be05bad1</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>064888f0-ca4b-4167-8d88-19bc729d9d23</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${alpha_token}</value>
+      <webElementGuid>5ba5945d-5fd4-4dda-8c59-39d35554f3be</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>PATCH</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/company-setting</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>503f7f60-c67b-453b-b6e0-d2517548deb0</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_token</defaultValue>
+      <description></description>
+      <id>36601a4a-b40f-41ab-8269-1a23767d3c6c</id>
+      <masked>false</masked>
+      <name>alpha_token</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

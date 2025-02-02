@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Create</name>
+   <tag></tag>
+   <elementGuidId>fee4e23a-1e49-47b6-ad1e-dfefa559d67f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n\t\&quot;request_type\&quot;: \&quot;reimbursement\&quot;,\n\t\&quot;expense_type_id\&quot;: 5,\n\t\&quot;date\&quot;: \&quot;2020-05-14\&quot;,\n\t\&quot;amount\&quot;: 15000,\n\t\&quot;currency\&quot;: \&quot;idr\&quot;,\n\t\&quot;description\&quot;: \&quot;Car Parking Fees for 14 May 2020\&quot;,\n    \&quot;company_setting_id\&quot; : 1\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>8242fdab-5e39-4ac5-b5f3-630c3960758c</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>e115f304-b7f0-4dd4-93f8-c09b3fb1cd63</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/expenses</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>0e89beef-5c0e-4b86-9047-755c7b0a9306</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

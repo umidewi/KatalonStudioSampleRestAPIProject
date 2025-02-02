@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Get all</name>
+   <tag></tag>
+   <elementGuidId>559cd609-46de-4c68-8d10-a0ec1e45ae62</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>ec033914-624d-4434-afec-e9750cc14f78</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>e3f5cc79-0e84-41e9-831b-9da8261a4637</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Proxy-Authorization</name>
+      <type>Main</type>
+      <value>${SECRET_SERVICE}</value>
+      <webElementGuid>bd960fb5-7233-4bcb-ab59-8ba6387eebc9</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>${alpha_header_user_id_key}</name>
+      <type>Main</type>
+      <value>${alpha_header_user_id_value}</value>
+      <webElementGuid>28e3c308-7855-46d1-9665-c5c8f7cccff0</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/resync?limit=2&amp;search=ayudi&amp;page=2&amp;sort_by=id&amp;sort_direction=asc&amp;company_setting_id=1</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>086293bd-b4ac-4a59-9a4c-abf91b1096f9</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.SECRET_SERVICE</defaultValue>
+      <description></description>
+      <id>44a0b69e-71e3-4920-9acb-ffdc1bc2ae09</id>
+      <masked>false</masked>
+      <name>SECRET_SERVICE</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_key</defaultValue>
+      <description></description>
+      <id>b8b72114-88c2-488c-9f77-018c5a653bd2</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_key</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_value</defaultValue>
+      <description></description>
+      <id>2445d567-adce-41b1-8b1d-395bc20e83b9</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_value</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

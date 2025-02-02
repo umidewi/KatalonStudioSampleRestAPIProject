@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Update</name>
+   <tag></tag>
+   <elementGuidId>5685139d-b4c2-486f-a343-90dc914ee4da</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n\t\&quot;employee_id\&quot;: \&quot;${alpha_header_user_id_value}\&quot;,\n\t\&quot;leave_type_id\&quot;: 1,\n\t\&quot;message\&quot;: \&quot;Family Trip to US \u0026 Canada\&quot;,\n\t\&quot;contact\&quot;: \&quot;081808180818\&quot;,\n\t\&quot;leaves\&quot;: [\n\t\t{\n\t\t\t\&quot;start_date\&quot;: \&quot;2020-07-02\&quot;,\n\t\t\t\&quot;duration\&quot;: 0.5,\n\t\t\t\&quot;time_of_day\&quot;: \&quot;afternoon\&quot;\n\t\t},\n\t\t{\n\t\t\t\&quot;start_date\&quot;: \&quot;2020-07-03\&quot;,\n\t\t\t\&quot;duration\&quot;: 3,\n\t\t\t\&quot;time_of_day\&quot;: \&quot;full\&quot;\n\t\t}\n\t]\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>efeae8e0-c443-40c6-b9d5-11faf5916fad</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>370c0186-d00d-4aab-93bf-0f233a9e07a8</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/leaves/requests/1</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>97de27a4-eb54-4b21-bcf8-1b271de5bec3</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_value</defaultValue>
+      <description></description>
+      <id>3d217ee0-48a1-4387-b9af-ced40aaf9d5f</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_value</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

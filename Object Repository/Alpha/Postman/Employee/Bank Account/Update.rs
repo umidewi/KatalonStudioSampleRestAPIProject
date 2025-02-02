@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Update</name>
+   <tag></tag>
+   <elementGuidId>f4526886-de70-4c27-881c-feaa2d0e0091</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;employee_uuid\&quot;: \&quot;${alpha_header_user_id_value}\&quot;,\n    \&quot;bank_name\&quot;: \&quot;BCA\&quot;,\n    \&quot;branch_name\&quot;: \&quot;Kemang Selatan\&quot;,\n    \&quot;account_no\&quot;: \&quot;1234567891\&quot;,\n    \&quot;account_name\&quot;: \&quot;John Doe\&quot;,\n    \&quot;city\&quot;: \&quot;South Jakarta\&quot;,\n    \&quot;country\&quot;: \&quot;ID\&quot;,\n    \&quot;swiftcode\&quot;: \&quot;iqwye6\&quot;,\n    \&quot;currency\&quot;: \&quot;idr\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>707a7fd0-17d9-42fe-a5c1-a50b6010ecd5</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>7c918f06-b399-47cd-80b0-027995cf493b</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/employees/${alpha_header_user_id_value}/accounts/1</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>4e7a3acf-db02-4774-9375-f5319ba9fb6d</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_value</defaultValue>
+      <description></description>
+      <id>cba15fe8-f613-45bd-8982-57d41b7b4fae</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_value</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

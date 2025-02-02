@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Get all</name>
+   <tag></tag>
+   <elementGuidId>6ca2728f-3ad0-4277-94d2-38edf7778967</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Proxy-Authorization</name>
+      <type>Main</type>
+      <value>${SECRET_SERVICE}</value>
+      <webElementGuid>24004875-8c69-423b-996c-d1299367644b</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>216fb779-4fa6-4658-a938-c07ba5313466</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${alpha_token}</value>
+      <webElementGuid>0f107fb7-f8ad-44a9-b23d-c548b2c3dd90</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/schedules/holidays?sort=id&amp;sort_direction=asc&amp;paginate=true&amp;start_date=2020-06-01&amp;end_date=2020-12-30&amp;status=1&amp;seacrh=AAA&amp;company_setting_id=1</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>90e90f74-984d-43f1-9285-c1bce7d420ff</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.SECRET_SERVICE</defaultValue>
+      <description></description>
+      <id>255557ca-c8b3-4ef0-9af0-bf89174d7038</id>
+      <masked>false</masked>
+      <name>SECRET_SERVICE</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_token</defaultValue>
+      <description></description>
+      <id>34365f81-a83b-4f1e-8c32-291176b30caf</id>
+      <masked>false</masked>
+      <name>alpha_token</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

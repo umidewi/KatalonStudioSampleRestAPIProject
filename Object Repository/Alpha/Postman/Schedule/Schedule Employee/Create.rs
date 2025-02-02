@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Create</name>
+   <tag></tag>
+   <elementGuidId>5d284ed9-8444-425f-9652-ae1f3b9423a9</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n    \&quot;schedule_type_id\&quot; : 2,\r\n    \&quot;start\&quot;       : \&quot;2020-01-01\&quot;,\r\n    \&quot;end\&quot;         : \&quot;2020-12-31\&quot;,\r\n    \&quot;notes\&quot;       : \&quot;notes\&quot;,\r\n    \&quot;fixed_schedule_id\&quot; : 2,\r\n    \&quot;is_active\&quot; : 1,\r\n    \&quot;company_setting_id\&quot; : 1\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Proxy-Authorization</name>
+      <type>Main</type>
+      <value>${SECRET_SERVICE}</value>
+      <webElementGuid>744e0446-81af-47ba-a0f8-a5b03da45405</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>f73027a7-5de7-4164-844a-7f62a2f642f9</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${alpha_token}</value>
+      <webElementGuid>1ef65e83-3c16-40d7-b5b1-32dd1f19b5d9</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/employees/${alpha_header_user_id_value}/schedules</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>3b1c36c8-995b-4a67-9a70-b5df69179870</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_value</defaultValue>
+      <description></description>
+      <id>814710b2-f66a-4345-91e0-eaa9e1e6a21c</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_value</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.SECRET_SERVICE</defaultValue>
+      <description></description>
+      <id>7f158555-a338-480c-88ee-172d700fce66</id>
+      <masked>false</masked>
+      <name>SECRET_SERVICE</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_token</defaultValue>
+      <description></description>
+      <id>4d8f6c34-a34a-4f9e-9b0f-7260cc257862</id>
+      <masked>false</masked>
+      <name>alpha_token</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

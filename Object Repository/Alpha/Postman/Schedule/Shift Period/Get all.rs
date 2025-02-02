@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Get all</name>
+   <tag></tag>
+   <elementGuidId>97d05349-3870-4efb-820b-5b88823e1f97</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n    \&quot;period_year\&quot; : \&quot;2021\&quot;,\r\n    \&quot;period_month\&quot;: \&quot;1\&quot;,\r\n    \&quot;work_hour\&quot; : [\r\n        {\r\n            \&quot;work_hour_id\&quot; : 1 \r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 2\r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 3\r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 4\r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 5\r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 6\r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 7\r\n        }\r\n    ]\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Proxy-Authorization</name>
+      <type>Main</type>
+      <value>${SECRET_SERVICE}</value>
+      <webElementGuid>558870d2-3e63-42b5-ad57-2a09a4045b3c</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>c73b7676-4cf5-4faf-bf5f-7291cf4a727f</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${alpha_token}</value>
+      <webElementGuid>10375bb9-ff3b-448e-b90f-960a21500134</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/employees/schedules/${employee_schedule_id}/shift/period</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>cefa7625-ab7a-4793-9437-b751e5157bce</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.employee_schedule_id</defaultValue>
+      <description></description>
+      <id>69fd3e46-f8cc-40f5-8c49-65b3d77bc8fb</id>
+      <masked>false</masked>
+      <name>employee_schedule_id</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.SECRET_SERVICE</defaultValue>
+      <description></description>
+      <id>461565ab-a1f7-4e5b-92b2-362eec5deb92</id>
+      <masked>false</masked>
+      <name>SECRET_SERVICE</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_token</defaultValue>
+      <description></description>
+      <id>9b1a82f9-0c51-4a3d-ac05-6053422eda7b</id>
+      <masked>false</masked>
+      <name>alpha_token</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

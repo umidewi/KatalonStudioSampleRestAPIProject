@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Employment status list</name>
+   <tag></tag>
+   <elementGuidId>31b9a9d1-3b8d-4ef4-83e8-c3a141967251</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n    \&quot;company_setting_id\&quot; : 1,\r\n    \&quot;position_id\&quot; : 2,\r\n    \&quot;budgeted\&quot; : 1,\r\n    \&quot;device_id\&quot; : 2,\r\n    \&quot;device_received_id\&quot; : 3,\r\n    \&quot;total_request\&quot; : 3,\r\n    \&quot;date_needed\&quot; : \&quot;2023-08-01\&quot;,\r\n    \&quot;existing_employee_count\&quot; : 10,\r\n    \&quot;salary_min\&quot; : 1000000,\r\n    \&quot;salary_max\&quot; : 5000000,\r\n    \&quot;status_request\&quot; : {\r\n            \&quot;type\&quot; : \&quot;new\&quot;,\r\n            \&quot;employee_id\&quot; : null\r\n    },\r\n    \&quot;work_from\&quot; : {\r\n            \&quot;type\&quot; : \&quot;hybrid\&quot;,\r\n            \&quot;office_id\&quot; : 1\r\n    },\r\n    \&quot;summary\&quot; : \&quot;Lorem ipsum\&quot;,\r\n    \&quot;requirment\&quot; : \&quot;Dolor sit amet\&quot;,\r\n    \&quot;job_description\&quot; : \&quot;Do bi do bi do\&quot;,\r\n    \&quot;note\&quot; : \&quot;nothing\&quot;\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>57e63547-19e6-4081-86ab-52d7c0da2f89</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>009401ed-6587-491b-9415-2b35e1dab7b5</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Proxy-Authorization</name>
+      <type>Main</type>
+      <value>${SECRET_SERVICE}</value>
+      <webElementGuid>be5a071d-15b2-43e8-8a62-660d23adcb99</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>${alpha_header_user_id_key}</name>
+      <type>Main</type>
+      <value>${alpha_header_user_id_value}</value>
+      <webElementGuid>c5763f99-22b7-47e0-85a1-80e4a57fbc2f</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/employment-status</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>7ce3b5e9-fa33-4265-b7f6-e91429238264</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.SECRET_SERVICE</defaultValue>
+      <description></description>
+      <id>35b57621-4d48-412d-bf41-292b43565aa1</id>
+      <masked>false</masked>
+      <name>SECRET_SERVICE</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_key</defaultValue>
+      <description></description>
+      <id>83878a4c-a6b5-4358-b719-9fd9befa85c8</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_key</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_value</defaultValue>
+      <description></description>
+      <id>ff0b6b7e-1ab5-44de-a651-69beec12cddc</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_value</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

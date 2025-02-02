@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>APIChainingDemo - NoGlobalVar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6cb3b3a8-03bc-404d-9e89-a49503e72b71</testCaseGuid>
+</TestCaseEntity>

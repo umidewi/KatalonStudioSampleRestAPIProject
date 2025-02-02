@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Patch Parent ID</name>
+   <tag></tag>
+   <elementGuidId>884eb08b-08ba-4cad-bd0c-d32ff427f36e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;groups\&quot;: [\n        {\n            \&quot;id\&quot;: 1,\n            \&quot;parent_id\&quot;: null,\n            \&quot;index\&quot;: 0\n        },\n        {\n            \&quot;id\&quot;: 5,\n            \&quot;parent_id\&quot;: null,\n            \&quot;index\&quot;: 1\n        },\n        {\n            \&quot;id\&quot;: 12,\n            \&quot;parent_id\&quot;: null,\n            \&quot;index\&quot;: 2\n        },\n        {\n            \&quot;id\&quot;: 18,\n            \&quot;parent_id\&quot;: 17,\n            \&quot;index\&quot;: 0\n        },\n        {\n            \&quot;id\&quot;: 19,\n            \&quot;parent_id\&quot;: 17,\n            \&quot;index\&quot;: 1\n        },\n        {\n            \&quot;id\&quot;: 20,\n            \&quot;parent_id\&quot;: 17,\n            \&quot;index\&quot;: 2\n        },\n        {\n            \&quot;id\&quot;: 21,\n            \&quot;parent_id\&quot;: 17,\n            \&quot;index\&quot;: 3\n        },\n        {\n            \&quot;id\&quot;: 22,\n            \&quot;parent_id\&quot;: 17,\n            \&quot;index\&quot;: 4\n        }\n    ]\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>818341cc-6422-4876-be33-96d65cebbeb2</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>ee18d95e-b540-4956-b7be-fa1f6e655789</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Proxy-Authorization</name>
+      <type>Main</type>
+      <value>${SERVICE_SECRET}</value>
+      <webElementGuid>cca1417d-1794-4f9e-9feb-0d429595225e</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>${alpha_header_user_id_key}</name>
+      <type>Main</type>
+      <value>${alpha_header_user_id_value}</value>
+      <webElementGuid>f1b70a97-36b6-4988-bb6a-6c746623f07d</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>PATCH</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/employees/data/categories</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>a79b9a75-f1d1-4496-8c0f-5ac5734173b9</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.SERVICE_SECRET</defaultValue>
+      <description></description>
+      <id>574ef75c-cb90-4695-852e-a0e12f10e8ed</id>
+      <masked>false</masked>
+      <name>SERVICE_SECRET</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_key</defaultValue>
+      <description></description>
+      <id>04ce6f05-cf64-4eaa-bcd6-ee7fc5fdfd74</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_key</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_value</defaultValue>
+      <description></description>
+      <id>64e11038-aa66-459d-bf9e-e7ab535137b7</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_value</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

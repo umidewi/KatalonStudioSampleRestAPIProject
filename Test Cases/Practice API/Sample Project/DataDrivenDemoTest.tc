@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataDrivenDemoTest</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d991944f-b6f9-4a49-8342-81b964fee95e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d55c1a1-8fa8-4075-94ee-3c10180cac29</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'umi'</defaultValue>
+      <description></description>
+      <id>3d55c1a1-8fa8-4075-94ee-3c10180cac29</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

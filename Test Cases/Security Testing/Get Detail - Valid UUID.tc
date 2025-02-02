@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get Detail - Valid UUID</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d31616c2-3144-4551-85ec-8cff8bcfa5f7</testCaseGuid>
+</TestCaseEntity>

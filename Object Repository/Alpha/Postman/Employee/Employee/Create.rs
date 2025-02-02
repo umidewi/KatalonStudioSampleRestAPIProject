@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Create</name>
+   <tag></tag>
+   <elementGuidId>ff6b76f6-81c8-43d2-ac52-00bb6bb1d1ab</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;firstname\&quot;: \&quot;Jane\&quot;,\n    \&quot;middlename\&quot;: \&quot;\&quot;,\n    \&quot;lastname\&quot;: \&quot;Doe\&quot;,\n    \&quot;birthdate\&quot;: \&quot;1990-01-01\&quot;,\n    \&quot;gender\&quot;: \&quot;female\&quot;,\n    \&quot;email\&quot;: \&quot;jane@admin.com\&quot;,\n    \&quot;join_date\&quot;: \&quot;2020-07-23\&quot;,\n    \&quot;personal_email\&quot;: \&quot;janedoe@mailinator.com\&quot;,\n    \&quot;blood_type\&quot;: \&quot;a\&quot;,\n    \&quot;blood_type_rh\&quot;: \&quot;+\&quot;,\n    \&quot;marital_status\&quot;: \&quot;single\&quot;,\n    \&quot;phone\&quot;: \&quot;081808180818\&quot;,\n    \&quot;mobile_phone\&quot;: \&quot;081808180818\&quot;,\n    \&quot;address\&quot;: \&quot;Somewhere in Surabaya\&quot;,\n    \&quot;home_address\&quot;: \&quot;Somewhere in Surabaya\&quot;,\n    \&quot;id_type\&quot;: \&quot;passport\&quot;,\n    \&quot;id_number\&quot;: \&quot;X123456\&quot;,\n    \&quot;id_expiration\&quot;: \&quot;2020-12-31\&quot;,\n    \&quot;family_card_no\&quot;: \&quot;1234567890123456\&quot;,\n    \&quot;avatar_url\&quot;: \&quot;/images/temp/brie_larson.jpeg\&quot;,\n    \&quot;internal_id\&quot;: \&quot;2007951\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>ff706f34-faad-4fb1-988f-6929c6421b2d</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>f42ef7f6-361b-4dd5-8ddd-4d067a93a53e</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/employees</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>736d34b2-a50a-4511-bdf4-e70808df6faf</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

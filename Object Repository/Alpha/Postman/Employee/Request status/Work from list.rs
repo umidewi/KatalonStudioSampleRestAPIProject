@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Work from list</name>
+   <tag></tag>
+   <elementGuidId>5c15a616-d2a4-4e49-903f-ac22745ea18d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n    \&quot;company_setting_id\&quot; : 1,\r\n    \&quot;position_id\&quot; : 2,\r\n    \&quot;budgeted\&quot; : 1,\r\n    \&quot;device_id\&quot; : 2,\r\n    \&quot;device_received_id\&quot; : 3,\r\n    \&quot;total_request\&quot; : 3,\r\n    \&quot;date_needed\&quot; : \&quot;2023-08-01\&quot;,\r\n    \&quot;existing_employee_count\&quot; : 10,\r\n    \&quot;salary_min\&quot; : 1000000,\r\n    \&quot;salary_max\&quot; : 5000000,\r\n    \&quot;status_request\&quot; : {\r\n            \&quot;type\&quot; : \&quot;new\&quot;,\r\n            \&quot;employee_id\&quot; : null\r\n    },\r\n    \&quot;work_from\&quot; : {\r\n            \&quot;type\&quot; : \&quot;hybrid\&quot;,\r\n            \&quot;office_id\&quot; : 1\r\n    },\r\n    \&quot;summary\&quot; : \&quot;Lorem ipsum\&quot;,\r\n    \&quot;requirment\&quot; : \&quot;Dolor sit amet\&quot;,\r\n    \&quot;job_description\&quot; : \&quot;Do bi do bi do\&quot;,\r\n    \&quot;note\&quot; : \&quot;nothing\&quot;\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>c1679f13-78a2-4285-9dd3-f87894927e18</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>cf64898e-5b62-4f0b-9536-a48c25b58968</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Proxy-Authorization</name>
+      <type>Main</type>
+      <value>${SECRET_SERVICE}</value>
+      <webElementGuid>c2321258-7fab-4383-a22e-fc0453d61967</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>${alpha_header_user_id_key}</name>
+      <type>Main</type>
+      <value>${alpha_header_user_id_value}</value>
+      <webElementGuid>3a52c7ca-93a1-4d29-8289-8e32da96170b</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/work-from</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>97f81462-e19b-45ae-b931-1662d1f7104c</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.SECRET_SERVICE</defaultValue>
+      <description></description>
+      <id>b465522a-f104-45b3-bc6f-1d5733c8a9b0</id>
+      <masked>false</masked>
+      <name>SECRET_SERVICE</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_key</defaultValue>
+      <description></description>
+      <id>3a2c9ba5-a0e2-4c9e-8368-6f2bd5ea8298</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_key</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_value</defaultValue>
+      <description></description>
+      <id>132d20f3-5c86-41f4-846d-aef7984d1df8</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_value</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Alpha</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>url app beta</description>
+      <initValue>'https://app-beta.forces.id'</initValue>
+      <name>alpha_oauth_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'adrianti@wowrack.com'</initValue>
+      <name>alpha_gw_username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Testing123.'</initValue>
+      <name>alpha_gw_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2'</initValue>
+      <name>alpha_gw_client_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'EnxkHgTTvmkTk6TY5mdWuOtwII4xFyrxFpemDwZw'</initValue>
+      <name>alpha_gw_client_secret</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://app-beta.forces.id/api/v1'</initValue>
+      <name>alpha_gw_api_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'b6bb9b6e-9b24-49a2-86c2-581efdc342d1'</initValue>
+      <name>alpha_header_user_id_value</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>alpha_token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'f15531d9-6b81-4c6b-a5ac-323cc8177bf8'</initValue>
+      <name>invalid_alpha_header_user_id_value</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'adrianti@wowrack.com\' OR 1=1 --'</initValue>
+      <name>username_sql</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

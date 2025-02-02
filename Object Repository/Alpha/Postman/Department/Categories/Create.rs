@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Create</name>
+   <tag></tag>
+   <elementGuidId>c182bd7f-1ca9-4199-b00c-66987ec8eb2b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;New Category With Parent\&quot;,\n    \&quot;code\&quot;: \&quot;NCP\&quot;,\n    \&quot;description\&quot;: \&quot;My Category\&quot;,\n    \&quot;is_manager\&quot; : 1,\n    \&quot;parent_job_category\&quot; : null,\n    \&quot;company_setting_id\&quot; : 1,\n    \&quot;reviewer\&quot; : [\n        {\n            \&quot;name\&quot; : null,\n            \&quot;department_id\&quot; : 2,\n            \&quot;category_id\&quot; : 5,\n            \&quot;role_id\&quot; : 4,\n            \&quot;order\&quot; : 1\n        },\n        {\n            \&quot;name\&quot; : null,\n            \&quot;department_id\&quot; : 2,\n            \&quot;category_id\&quot; : 4,\n            \&quot;role_id\&quot; : 4,\n            \&quot;order\&quot; : 2\n        },\n        {\n            \&quot;name\&quot; : null,\n            \&quot;department_id\&quot; : 2,\n            \&quot;category_id\&quot; : 3,\n            \&quot;role_id\&quot; : 4,\n            \&quot;order\&quot; : 3\n        }\n    ]\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>b3dd799f-14f6-44a0-b575-9bf10835ad40</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>9ea77ba2-c43d-499e-bf1a-f8287fb4c8f8</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/categories</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>1bc46a6b-9502-4a64-93d1-e21090529f39</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

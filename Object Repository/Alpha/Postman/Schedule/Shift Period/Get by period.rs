@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Get by period</name>
+   <tag></tag>
+   <elementGuidId>27b60c50-0b9b-4481-9ac8-e40deff812ea</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n    \&quot;period_year\&quot; : \&quot;2020\&quot;,\r\n    \&quot;period_month\&quot;: \&quot;10\&quot;,\r\n    \&quot;work_hour\&quot; : [\r\n        {\r\n            \&quot;work_hour_id\&quot; : 1 \r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 2\r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 3\r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 4\r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 5\r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 6\r\n        }, \r\n        {\r\n            \&quot;work_hour_id\&quot; : 7\r\n        }\r\n    ]\r\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Proxy-Authorization</name>
+      <type>Main</type>
+      <value>${SECRET_SERVICE}</value>
+      <webElementGuid>f44441be-ed17-4efd-9498-bd6478b883ec</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>21ad3459-6966-4cb2-bbdb-e37175be0868</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${alpha_token}</value>
+      <webElementGuid>059c5a1a-9f8d-413a-b418-42a1b5d09731</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/employees/schedules/${employee_schedule_id}/shift/period/${year}/${month}</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>0efd9f46-0f71-4fb0-be33-58fa63df25db</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.employee_schedule_id</defaultValue>
+      <description></description>
+      <id>077b86a7-fec7-4dc4-a403-36ca89a8151e</id>
+      <masked>false</masked>
+      <name>employee_schedule_id</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.year</defaultValue>
+      <description></description>
+      <id>5ce763a8-1cae-4ef3-9e6e-7d96deed504c</id>
+      <masked>false</masked>
+      <name>year</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.month</defaultValue>
+      <description></description>
+      <id>31a2b5f6-d223-467f-8068-332a59249ac6</id>
+      <masked>false</masked>
+      <name>month</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.SECRET_SERVICE</defaultValue>
+      <description></description>
+      <id>93c77e93-7744-4b77-976e-919e2bf9655a</id>
+      <masked>false</masked>
+      <name>SECRET_SERVICE</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_token</defaultValue>
+      <description></description>
+      <id>1bb1f557-f4ff-4fce-a478-694cbdafe2da</id>
+      <masked>false</masked>
+      <name>alpha_token</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Omega Dev</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://omegaapi-docker.wowrack.com/admin-api/'</initValue>
+      <name>api_url</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

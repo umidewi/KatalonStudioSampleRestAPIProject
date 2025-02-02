@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>Draft Salary</name>
+   <tag></tag>
+   <elementGuidId>dca5f5c5-97c7-4142-826f-c416233ac6da</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\r\n    \&quot;pay_type_id\&quot;: 2,\r\n    \&quot;pay_period_id\&quot;: 2,\r\n    \&quot;base_nominal\&quot;: 6842102,\r\n    \&quot;allowance\&quot;: [\r\n        {\r\n            \&quot;type_id\&quot;: 1,\r\n            \&quot;currency\&quot;: \&quot;idr\&quot;,\r\n            \&quot;value\&quot;: 1000000\r\n        },\r\n        {\r\n            \&quot;type_id\&quot;: 2,\r\n            \&quot;currency\&quot;: \&quot;idr\&quot;,\r\n            \&quot;value\&quot;: 2000000\r\n        }\r\n    ],\r\n    \&quot;deduction\&quot;: [\r\n        {\r\n            \&quot;type_id\&quot;: 3,\r\n            \&quot;currency\&quot;: \&quot;idr\&quot;,\r\n            \&quot;value\&quot;: 3000000\r\n        },\r\n        {\r\n            \&quot;type_id\&quot;: 4,\r\n            \&quot;currency\&quot;: \&quot;idr\&quot;,\r\n            \&quot;value\&quot;: 50000\r\n        }\r\n    ],\r\n    \&quot;reasons\&quot; : [\r\n        {\r\n            \&quot;reason_id\&quot; : 1 \r\n        }, \r\n        {\r\n            \&quot;reason_id\&quot; : 2\r\n        }\r\n    ],\r\n    \&quot;taxs\&quot;: [\r\n        {\r\n            \&quot;type_id\&quot;: 1,\r\n            \&quot;currency\&quot;: \&quot;idr\&quot;,\r\n            \&quot;value\&quot;: 3000000\r\n        },\r\n        {\r\n            \&quot;type_id\&quot;: 2,\r\n            \&quot;currency\&quot;: \&quot;idr\&quot;,\r\n            \&quot;value\&quot;: 50000\r\n        }\r\n    ],\r\n    \&quot;effective_date\&quot; : \&quot;2020-08-31\&quot;,\r\n    \&quot;custom_reason\&quot; : null\r\n}&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>b2310484-831f-4486-a719-bc92d5ae426b</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${alpha_token}</value>
+      <webElementGuid>4b54fb5a-1de6-44fa-b08f-c20b41aded58</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>${alpha_header_user_id_key}</name>
+      <type>Main</type>
+      <value>${alpha_header_user_id_value}</value>
+      <webElementGuid>b91d44cc-ff3d-4f1a-b743-944532077366</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Proxy-Authorization</name>
+      <type>Main</type>
+      <value>${SECRET_SERVICE}</value>
+      <webElementGuid>da517adc-3588-4e4c-a89f-7f4f28b1bd89</webElementGuid>
+   </httpHeaderProperties>
+   <katalonVersion>10.0.1</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${alpha_gw_api_url}/employees/${alpha_header_user_id_value}/salaries/draft</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_gw_api_url</defaultValue>
+      <description></description>
+      <id>47533805-3df1-4364-8889-42deff640d34</id>
+      <masked>false</masked>
+      <name>alpha_gw_api_url</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_value</defaultValue>
+      <description></description>
+      <id>170a9821-8805-466a-83e2-42bfae55ce33</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_value</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_token</defaultValue>
+      <description></description>
+      <id>fbba20fd-42da-4742-96f7-1c0d4b53bd9a</id>
+      <masked>false</masked>
+      <name>alpha_token</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.alpha_header_user_id_key</defaultValue>
+      <description></description>
+      <id>83db5959-2378-45cc-ada4-aa1d5c1ad68c</id>
+      <masked>false</masked>
+      <name>alpha_header_user_id_key</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.SECRET_SERVICE</defaultValue>
+      <description></description>
+      <id>bf46f3ff-1695-4513-8015-eea9cf2d53e5</id>
+      <masked>false</masked>
+      <name>SECRET_SERVICE</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>
